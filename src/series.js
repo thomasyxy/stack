@@ -1,3 +1,5 @@
+// series 适用于相互之间无依赖的异步串行执行
+
 const fs = require('fs');
 const async = require('async');
 
