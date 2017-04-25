@@ -77,6 +77,7 @@ var readFile2 = function (file, encoding) {
 };
 
 readFile1('./file1.txt', 'utf8').then(function (file1) {
+  debugger
   return readFile2(file1.trim(), 'utf8');
 }).then(function (file2) {
   console.log(file2)
