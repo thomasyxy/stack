@@ -12,7 +12,7 @@ async.parallel([
   }
 ], function(err, result) {
   if(err) {
-    console.err(err);
+    console.error(err);
     return false;
   }
   console.log(result);
