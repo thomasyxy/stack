@@ -1,0 +1,22 @@
+{
+  "name": "stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasyxy/stack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasyxy/stack/issues"
+  },
+  "homepage": "https://github.com/thomasyxy/stack#readme",
+  "dependencies": {
+    "async": "^2.3.0"
+  }
+}
